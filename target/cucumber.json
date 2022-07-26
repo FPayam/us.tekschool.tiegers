@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-16T18:08:21.605Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7137000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Register With Test Environment website",
+        "description": "",
+        "id": "register;register-with-test-environment-website",
+        "after": [
+          {
+            "result": {
+              "duration": 1208000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 196000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Test Environment Home Page",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.I_am_on_Test_Environment_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on My Account button",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.I_clickon_My_Account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on register link",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I fill registeration from",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "email",
+                  "telephone",
+                  "password",
+                  "confirmpassword"
+                ]
+              },
+              {
+                "cells": [
+                  "jan",
+                  "khan",
+                  "jank@gmail.com",
+                  "4044506799",
+                  "test123",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "i subscribe to news letter",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "i agree to pricacy policy",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "i click on continue button",
+            "match": {
+              "location": "stepDefinitions.RegisterSteps.i_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "i validate my account was created successfuly",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "classpath:features/register.feature",
+    "tags": []
+  }
+]
